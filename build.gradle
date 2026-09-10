@@ -20,9 +20,11 @@ test {
     useTestNG()
 }
 
-task copyWebsite(type: Copy) {
-    from 'src/main/resources/website'
+tasks.register('copyWebsite', Copy) {
+    from 'src/main/resources'
     into 'docs'
 }
 
-build.dependsOn copyWebsite
+tasks.named('build') {
+    dependsOn 'copyWebsite'
+}
