@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.48.0'
+
+    testImplementation 'org.testng:testng:7.4.0'
+}
+
+application {
+    mainClass = 'org.example.Main'
+}
+
+test {
+    useTestNG()
+}
+
+task copyWebsite(type: Copy) {
+    from 'src/main/resources/website'
+    into 'docs'
+}
+
+build.dependsOn copyWebsite
