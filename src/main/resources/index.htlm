@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>Shoaib Ahmed | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <nav class="navbar">
-        <h2 class="logo">My Portfolio</h2>
+    <nav>
+        <div class="logo">Shoaib Ahmed</div>
 
-        <ul class="nav-links">
+        <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -25,93 +26,92 @@
 </header>
 
 <section id="home" class="hero">
-    <div class="hero-content">
-        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+    <div>
+        <p class="small-title">WELCOME TO MY PORTFOLIO</p>
 
-        <h1>Hello, I'm <span>Shoaib Ahmed</span></h1>
+        <h1>Hi, I'm <span>Shoaib Ahmed</span></h1>
 
         <h2>Java Developer & Software Testing Enthusiast</h2>
 
         <p>
-            I am interested in Java development, web technologies,
-            automation testing and building useful software projects.
+            I am passionate about Java development, web technologies,
+            automation testing and building practical projects.
         </p>
 
-        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#projects" class="button">View My Projects</a>
     </div>
 </section>
 
-<section id="about" class="section">
+<section id="about">
     <h2>About Me</h2>
 
-    <div class="about-card">
+    <div class="card">
         <p>
-            I am a computer science student passionate about software
-            development and testing. I enjoy learning Java, Selenium,
-            TestNG, Gradle, HTML and CSS while creating practical projects.
+            I am a computer science student interested in software
+            development and testing. I work with Java, Selenium,
+            TestNG, Gradle, HTML and CSS.
         </p>
     </div>
 </section>
 
-<section id="skills" class="section">
+<section id="skills">
     <h2>My Skills</h2>
 
-    <div class="skills-container">
-        <div class="skill">Java</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">Selenium</div>
-        <div class="skill">TestNG</div>
-        <div class="skill">Gradle</div>
-        <div class="skill">Git & GitHub</div>
+    <div class="skills">
+        <div>Java</div>
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>Selenium</div>
+        <div>TestNG</div>
+        <div>Gradle</div>
+        <div>Git & GitHub</div>
     </div>
 </section>
 
-<section id="projects" class="section">
+<section id="projects">
     <h2>My Projects</h2>
 
-    <div class="projects-container">
+    <div class="projects">
 
-        <div class="project-card">
+        <div class="card project">
             <h3>Healthcare Chatbot</h3>
             <p>
-                A healthcare assistant designed to help users find
-                nearby hospitals and healthcare services.
+                Healthcare assistant project designed to help users
+                find hospitals and healthcare services.
             </p>
-            <button>View Project</button>
         </div>
 
-        <div class="project-card">
+        <div class="card project">
             <h3>Selenium Automation</h3>
             <p>
-                Automated web testing project using Selenium WebDriver
+                Web automation testing project using Selenium WebDriver
                 and TestNG.
             </p>
-            <button>View Project</button>
         </div>
 
-        <div class="project-card">
+        <div class="card project">
             <h3>Java Projects</h3>
             <p>
-                Collection of Java programs demonstrating OOP,
-                inheritance, overriding and other concepts.
+                Java projects covering OOP, inheritance, method
+                overriding and other programming concepts.
             </p>
-            <button>View Project</button>
         </div>
 
     </div>
 </section>
 
-<section id="contact" class="section contact">
+<section id="contact">
     <h2>Contact Me</h2>
 
-    <p>Email: your-email@example.com</p>
-    <p>GitHub: github.com/yourusername</p>
-    <p>LinkedIn: linkedin.com/in/yourusername</p>
+    <div class="card contact">
+        <p>Email: your-email@example.com</p>
+        <p>GitHub: your-github</p>
+        <p>LinkedIn: your-linkedin</p>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Shoaib Ahmed. All Rights Reserved.</p>
+    <p>© 2026 Shoaib Ahmed</p>
 </footer>
 
 </body>
